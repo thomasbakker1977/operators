@@ -28,21 +28,21 @@ switzerland_gdp = (618228 * 10**9)
 
 print (int(switzerland_gdp) > int(spain_gdp))
 
-#The population growth is less than 1% in Switzerland and Spain.
+#The population growth is less than 1% in Switzerland and Spain.(TRUE)
 spain_population_growth = (0.13)
 switzerland_population_growth = (0.65)
 
 print ((spain_population_growth < 1) and (switzerland_population_growth < 1))
 
 
-#At least one of the two countries has a population count of over 10 million.
+#At least one of the two countries has a population count of over 10 million. (TRUE)
 spain_population = (47163418)
 switzerland_population = (8508698)
 population_gt = 10000000
 
 print ('spain_population' > 'population_gt') or ('switzerland_population' > 'population_gt')
 
-#Exactly one of the two countries has a population count of over 10 million.
+#Exactly one of the two countries has a population count of over 10 million. (TRUE)
 if spain_population > population_gt:
     print ('spain_population' > 'population_gt')
 elif switzerland_population > population_gt:
